@@ -13,6 +13,10 @@ body {
 	display: table;
 	font-size: 17px;
 	position: relative;
+	
+	-webkit-box-shadow: 0 8px 6px -6px #C0CCC0;
+	   -moz-box-shadow: 0 8px 6px -6px #C0CCC0;
+	        box-shadow: 0 8px 6px -6px #C0CCC0;
 }
 
 .top-header div {
