@@ -164,7 +164,7 @@ textarea {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/plain-banner.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -213,8 +213,17 @@ footer {
     background-color: #f8f8f8;
 }
 
+footer a {
+    color: #f8f8f8;
+}
+
+footer a:hover {
+    color: #7acbea;
+}
+
 p.copyright {
     margin: 15px 0 0;
+        color: #989898;
 }
 
 .send-button {
