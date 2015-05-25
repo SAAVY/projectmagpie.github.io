@@ -33,7 +33,7 @@ input[type=text] {
     width: 400px;
     color: #111111;
     padding-left: 8px;
-    line-height: 1; 
+    line-height: 1;
     font-weight: normal;
     padding-top: 5px;
 }
@@ -52,13 +52,19 @@ textarea {
     border-radius: 5px;
     color: #111111;
     padding-left: 8px;
-    line-height: 1; 
+    line-height: 1;
     font-weight: normal;
     padding-top: 5px;
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 0px;
+
+    -webkit-box-shadow: 0 8px 6px -6px #C0CCC0;
+    -moz-box-shadow: 0 8px 6px -6px #C0CCC0;
+    box-shadow: 0 8px 6px -6px #C0CCC0;
 }
 
 .lead {
@@ -71,14 +77,16 @@ textarea {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/magpie.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../img/banner.jpg) no-repeat center left;
+    background-color: #53b45d;
+    /*background-size: contain;*/
 }
 
 .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    float: right;
 }
 
 .intro-message > h1 {
