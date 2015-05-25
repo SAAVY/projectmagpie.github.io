@@ -188,7 +188,7 @@
                         <input type="text" id="txtEmail" name="_replyto" placeholder="Email Address" /><br /><br />
                         <input type="text" id="txtSubject" name="_subject" placeholder="Subject" /><br /><br />
                         <textarea id="txtEmail" name="name" placeholder="Message"></textarea><br /><br />
-                        <input type="submit" value="Send" class="send-button">
+                        <input type="submit" value="Send" class="send-button" onclick="sendClicked()">
 
                         <input type="hidden" name="_next" value="http://projectmagpie.github.io/#contact" />
                     </form>
@@ -235,6 +235,13 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+
 </body>
 
 </html>
+
+<script type="text/javascript">
+  function sendClicked() {
+    alert("Thank you for your message! We will be in touch with you shortly.");
+  }
+</script>
